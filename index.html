@@ -1,430 +1,520 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="un">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>technical-documentation-page</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>webstudio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
+    <!-- Перший елемент кожної .main-section повинен бути елементом header, який має
+    текст, що описує тему секції.  -->
 
-<body>
-  <header class="page-header">
-    <div class="container page-header-container">
-      <nav class="page-nav">
-        <a class="page-logo link" href="">
-          <span class="page-logo-web">web</span>studio
-        </a>
-        <ul class="menu list">
-          <li class="menu-item">
-            <div class="menu-item-link">
-              <a class="menu-link menu-link-activ link" href="">
-                <div class="menu-link-cont">Studio</div>
-              </a>
-            </div>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="contact-list list">
-        <li class="contact-item">
-          <a class="contact-link link" href="malito:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="contact-item">
-          <a class="contact-link link" href="tel:+380730031901">+38 (073) 003-19-01</a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero-titel">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button class="hero-button" type="button">Order Service</button>
-      </div>
-    </section>
-    <section class="characteristic">
-      <div class="container">
-        <h2 class="visualli-hidden"></h2>
-        <ul class="characteristic-list list">
-          <li class="characteristic-item">
-            <div class="characteristic-icon">
-              <svg class="characteristic-icon-list" width="70" height="70" aria-label="">
-                <use href="./images/icons/sprite.svg#icon-antenna"></use>
-              </svg>
-            </div>
-            <h3 class="characteristic-titel">Strategy</h3>
-            <p class="characteristic-text">
-              Our goal is to identify the business problem to walk away with
-              the perfect and creative solution.
-            </p>
-          </li>
-          <li class="characteristic-item">
-            <div class="characteristic-icon">
-              <svg class="characteristic-icon-list" width="70" height="70" aria-label="">
-                <use href="./images/icons/sprite.svg#icon-clock"></use>
-              </svg>
-            </div>
-            <h3 class="characteristic-titel">Punctuality</h3>
-            <p class="characteristic-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="characteristic-item">
-            <div class="characteristic-icon">
-              <svg class="characteristic-icon-list" width="70" height="70" aria-label="">
-                <use href="./images/icons/sprite.svg#icon-diagram"></use>
-              </svg>
-            </div>
-            <h3 class="characteristic-titel">Diligence</h3>
-            <p class="characteristic-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="characteristic-item">
-            <div class="characteristic-icon">
-              <svg class="characteristic-icon-list" width="70" height="70" aria-label="">
-                <use href="./images/icons/sprite.svg#icon-astronaut"></use>
-              </svg>
-            </div>
-            <h3 class="characteristic-titel">Technologies</h3>
-            <p class="characteristic-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="team">
-      <div class="container">
-        <h2 class="team-titel">Our Team</h2>
-        <ul class="team-list list">
-          <li class="team-item">
-            <a class="team-link" href=""><img class="team-img" src="./images/our-team/mark.jpg" alt="mark-photo" /></a>
-            <div class="team-container">
-              <h3 class="team-name">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
-              <ul class="team-icon-list list">
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-linkedin"></use>
-                  </a>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="team-item">
-            <a class="team-link" href=""><img class="team-img" src="./images/our-team/tom.jpg" alt="tom-photo" /></a>
-            <div class="team-container">
-              <h3 class="team-name">Tom Ford</h3>
-              <p class="team-text">Frontend Develope</p>
-              <ul class="team-icon-list list">
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
+    <!-- Елемент header в #navbar повинен йти перед
+    елементами зв'язку (a) в навігаційній панелі  -->
 
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-linkedin"></use>
-                  </a>
-
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="team-item">
-            <a class="team-link" href=""><img class="team-img" src="./images/our-team/camila.jpg"
-                alt="camila-photo" /></a>
-            <div class="team-container">
-              <h3 class="team-name">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
-              <ul class="team-icon-list list">
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-linkedin"></use>
-                  </a>
-
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="team-item">
-            <a class="team-link" href=""><img class="team-img" src="./images/our-team/daniel.jpg"
-                alt="daniel-photo" /></a>
-            <div class="team-container">
-              <h3 class="team-name">Daniel Wilson</h3>
-              <p class="team-text">Ui Designer</p>
-              <ul class="team-icon-list list">
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-
-
-                </li>
-                <li class="team-icon-item">
-                  <a class="team-icon-ling" href="">
-                    <svg class="team-icon-item-list" width="16" height="16">
-                      <use href="./images/icons/sprite.svg#icon-linkedin"></use>
-                  </a>
-
-                  </svg>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="specialization">
-      <div class="container">
-        <h2 class="specialization-titel">Our Portfolio</h2>
-        <ul class="specialization-list list">
-          <li class="specialization-item">
-            <a href="" class="specialization-link link">
-              <div class="specialization-link-cont">
-                <img class="specialization-img" src="./images/our-portfolio/banking-app.jpg" alt="banking-app" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
-              </div>
-              <div class="specialization-container">
-                <h3 class="specialization-item-titel">Banking App</h3>
-                <p class="specialization-text">App</p>
-              </div>
-            </a>
-          </li>
-          <li class="specialization-item">
-            <a href="" class="specialization-link link">
-              <div class="specialization-link-cont">
-                <img class="specialization-img" src="./images/our-portfolio/cashless-payment.jpg"
-                  alt="cashless-payment" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
-              </div>
-              <div class="specialization-container">
-                <h3 class="specialization-item-titel">Cashless Payment</h3>
-                <p class="specialization-text">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="specialization-item">
-            <a href="" class="specialization-link link">
-              <div class="specialization-link-cont">
-                <img class="specialization-img" src="./images/our-portfolio/meditation-app.jpg" alt="meditation-app" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
-              </div>
-              <div class="specialization-container">
-                <h3 class="specialization-item-titel">Meditation App</h3>
-                <p class="specialization-text">App</p>
-              </div>
-            </a>
-          </li>
-          <li class="specialization-item">
-            <a href="" class="specialization-link link">
-              <div class="specialization-link-cont">
-                <img class="specialization-img" src="./images/our-portfolio/taxi-service.jpg" alt="taxi-service" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
-              </div>
-              <div class="specialization-container">
-                <h3 class="specialization-item-titel">Taxi Service</h3>
-                <p class="specialization-text">Marketing</p>
-              </div>
-            </a>
-          </li>
-          <li class="specialization-item">
-            <a href="" class="specialization-link link">
-              <div class="specialization-link-cont">
-                <img class="specialization-img" src="./images/our-portfolio/screen-iiiustrations.jpg"
-                  alt="screen-iiiustrations" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
-              </div>
-              <div class="specialization-container">
-                <h3 class="specialization-item-titel">Screen Illustrations</h3>
-                <p class="specialization-text">Design</p>
-              </div>
-            </a>
-          </li>
-          <li class="specialization-item">
-            <a href="" class="specialization-link link">
-              <div class="specialization-link-cont">
-                <img class="specialization-img" src="./images/our-portfolio/online-courses.jpg" alt="online-courses" />
-                <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
-                  App · Exotic Fruit Ecommerce App ·
-                  Cloud Storage App</p>
-              </div>
-              <div class="specialization-container">
-                <h3 class="specialization-item-titel">Online Courses</h3>
-                <p class="specialization-text">Marketing</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container footer-cont">
-      <div class="footer-logo-text">
-        <a class="footer-logo link" href="">
-          <span class="page-logo-web">web</span>studio
-        </a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
-      </div>
-      <div class="footer-social">
-        <p class="social-media">Social media</p>
-        <ul class="team-icon-list-footer list">
-          <li class="team-icon-item-footer">
-            <a class="team-icon-ling-footer" href="">
-              <svg class="team-icon-item-list-footer" width="16" height="16">
-                <use href="./images/icons/sprite.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="team-icon-item-footer">
-            <a class="team-icon-ling-footer" href="">
-              <svg class="team-icon-item-list-footer" width="16" height="16">
-                <use href="./images/icons/sprite.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="team-icon-item-footer">
-            <a class="team-icon-ling-footer" href="">
-              <svg class="team-icon-item-list-footer" width="16" height="16">
-                <use href="./images/icons/sprite.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="team-icon-item-footer">
-            <a class="team-icon-ling-footer" href="">
-              <svg class="team-icon-item-list-footer" width="16" height="16">
-                <use href="./images/icons/sprite.svg#icon-linkedin"></use>
-            </a>
-            </svg>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-</body>
-
+    <body>
+        <section></section>
+        <header class="page-header">
+            <h1 class="hero-titel">
+                Документація <span class="page-logo-web">JS</span>
+            </h1>
+            <nav id="navbar">
+                <ul>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#introduction">Вступ</a>
+                    </li>
+                    <li class="list list-text-header">
+                        <a
+                            class="nav-link titel"
+                            href="#what_you_should_already_know"
+                            >Те, що ви вже повинні знати</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#javaScript_and_java"
+                            >JavaScript і Java</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#hello_world"
+                            >Привіт Світ</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#variables">Змінні</a>
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#declaring_variables"
+                            >Оголошення змінних</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#variable_scope"
+                            >Область змінної</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#global_variables"
+                            >Глобальні змінні</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#constants"
+                            >Константи</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#data_types"
+                            >Типи даних</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#if...else_statement"
+                            >Оператор if... else</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#while_statement"
+                            >Оператор while</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#function_declarations"
+                            >Оголошення функцій</a
+                        >
+                    </li>
+                    <li class="list list-text-header">
+                        <a class="nav-link titel" href="#reference">Довідка</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-doc">
+            <section id="introduction" class="main-section">
+                <h2 class="titel">Вступ</h2>
+                <p class="text">
+                    JavaScript — це кросплатформна об’єктно-орієнтована мова
+                    сценаріїв. Це маленька і легка мова. Усередині хост-оточення
+                    (наприклад, веб-браузера) JavaScript можна підключити до
+                    об’єктів свого середовища, щоб забезпечити програмний
+                    контроль над ними.
+                </p>
+                <p class="text">
+                    JavaScript містить стандартну бібліотеку об’єктів, наприклад
+                    Array, Date і Math, а також базовий набір елементів мови,
+                    таких як оператори, керуючі структури та оператори. Основний
+                    JavaScript можна розширити для різноманітних цілей,
+                    доповнивши його додатковими об’єктами; наприклад:
+                </p>
+                <ul class="list-style">
+                    <li class="list-text">
+                        Клієнтський JavaScript розширює основну мову, надаючи
+                        об’єкти для керування браузером та його об’єктною
+                        моделлю документа (DOM). Наприклад, розширення на
+                        стороні клієнта дозволяють програмі розміщувати елементи
+                        у формі HTML і реагувати на події користувача, такі як
+                        клацання мишею, введення форми та навігація сторінкою.
+                    </li>
+                    <li class="list-text">
+                        JavaScript на стороні сервера розширює основну мову,
+                        надаючи об’єкти, які стосуються запуску JavaScript на
+                        сервері. Наприклад, розширення на стороні сервера
+                        дозволяють програмі спілкуватися з базою даних,
+                        забезпечувати безперервність інформації від одного
+                        виклику програми до іншого або виконувати маніпуляції з
+                        файлами на сервері.
+                    </li>
+                </ul>
+            </section>
+            <section id="what_you_should_already_know" class="main-section">
+                <h2 class="titel">Те, що ви вже повинні знати</h2>
+                <p class="text">
+                    У цьому посібнику передбачається, що ви маєте такі базові
+                    знання:
+                </p>
+                <ul class="list-style">
+                    <li class="list-text">
+                        Загальне розуміння Інтернету та Всесвітньої павутини
+                        (WWW).
+                    </li>
+                    <li class="list-text">
+                        Добре знання мови розмітки гіпертексту (HTML).
+                    </li>
+                    <li class="list-text">
+                        Певний досвід програмування. Якщо ви новачок у
+                        програмуванні, спробуйте один із навчальних посібників,
+                        посилання на які є на головній сторінці про JavaScript.
+                    </li>
+                </ul>
+            </section>
+            <section id="javaScript_and_java" class="main-section">
+                <h2 class="titel">JavaScript і Java</h2>
+                <p class="text">
+                    JavaScript і Java схожі в деяких аспектах, але принципово
+                    відрізняються в деяких. Мова JavaScript нагадує Java, але не
+                    має статичної типізації та жорсткої перевірки типів Java.
+                    JavaScript дотримується більшості синтаксису виразів Java,
+                    умов іменування та основних конструкцій потоку керування, що
+                    стало причиною перейменування з LiveScript на JavaScript.
+                </p>
+                <p class="text">
+                    На відміну від системи класів під час компіляції Java,
+                    створених за допомогою декларацій, JavaScript підтримує
+                    систему часу виконання, засновану на невеликій кількості
+                    типів даних, що представляють числові, логічні та рядкові
+                    значення. JavaScript має об’єктну модель на основі прототипу
+                    замість більш поширеної об’єктної моделі на основі класу.
+                    Модель на основі прототипу забезпечує динамічне
+                    успадкування; тобто те, що успадковується, може відрізнятися
+                    для окремих об’єктів. JavaScript також підтримує функції без
+                    будь-яких спеціальних декларативних вимог. Функції можуть
+                    бути властивостями об'єктів, що виконуються як вільно
+                    типізовані методи.
+                </p>
+                <p class="text">
+                    JavaScript є мовою дуже вільної форми порівняно з Java. Вам
+                    не потрібно оголошувати всі змінні, класи та методи. Вам не
+                    потрібно турбуватися про те, чи є методи публічними,
+                    приватними чи захищеними, і вам не потрібно реалізовувати
+                    інтерфейси. Змінні, параметри та типи повернення функцій не
+                    вказуються явно.
+                </p>
+            </section>
+            <section id="hello_world" class="main-section">
+                <h2 class="titel">Привіт Світ</h2>
+                <p class="text">
+                    Щоб розпочати написання JavaScript, відкрийте Scratchpad і
+                    напишіть свій перший код JavaScript «Hello world»:
+                </p>
+                <code class="code"
+                    >function greetMe(yourName) { alert("Hello " + yourName); }
+                    greetMe("World");</code
+                >
+                <p class="text">
+                    виберіть код у блокноті та натисніть Ctrl+R, щоб
+                    спостерігати, як він розгортається у вашому браузері!
+                </p>
+            </section>
+            <section id="variables" class="main-section">
+                <h2 class="titel">Змінні</h2>
+                <p class="text">
+                    Ви використовуєте змінні як символічні імена для значень у
+                    своїй програмі. Імена змінних, які називаються
+                    ідентифікаторами, відповідають певним правилам.
+                </p>
+                <p class="text">
+                    Ідентифікатор JavaScript має починатися з літери,
+                    підкреслення (_) або знака долара ($); наступні символи
+                    також можуть бути цифрами (0-9). Оскільки JavaScript
+                    чутливий до регістру, літери включають символи від "A" до
+                    "Z" (великі літери) та символи від "a" до "z" (малі літери).
+                </p>
+                <p class="text">
+                    В ідентифікаторах можна використовувати літери ISO 8859-1
+                    або Unicode, наприклад å та ü. Ви також можете
+                    використовувати керуючі послідовності Unicode як символи в
+                    ідентифікаторах. Деякі приклади офіційних назв: Number_hits,
+                    temp99 і _name.
+                </p>
+            </section>
+            <section id="declaring_variables" class="main-section">
+                <h2 class="titel">Оголошення змінних</h2>
+                <p class="text">Ви можете оголосити змінну трьома способами:</p>
+                <p class="text">За допомогою ключового слова var. Наприклад,</p>
+                <code class="code">var x = 42.</code>
+                <p class="text">
+                    цей синтаксис можна використовувати для оголошення як
+                    локальних, так і глобальних змінних.
+                </p>
+                <p class="text">Просто присвоївши йому значення. Наприклад,</p>
+                <code class="code">x = 42.</code>
+                <p class="text">
+                    This завжди оголошує глобальну змінну. Він створює суворе
+                    попередження JavaScript. Ви не повинні використовувати цей
+                    варіант.
+                </p>
+                <p class="text">З ключовим словом let. Наприклад,</p>
+                <code class="code">let y = 13.</code>
+                <p class="text">
+                    цей синтаксис можна використовувати для оголошення локальної
+                    змінної області видимості блоку. Див. Область змінної нижче.
+                </p>
+            </section>
+            <section id="variable_scope" class="main-section">
+                <h2 class="titel">Область змінної</h2>
+                <p class="text">
+                    Коли ви оголошуєте змінну поза будь-якою функцією, вона
+                    називається глобальною змінною, оскільки вона доступна для
+                    будь-якого іншого коду в поточному документі. Коли ви
+                    оголошуєте змінну у функції, вона називається локальною
+                    змінною, оскільки вона доступна лише в цій функції.
+                </p>
+                <p class="text">
+                    JavaScript до ECMAScript 2015 не має області оператора
+                    блоку; скоріше, змінна, оголошена в блоці, є локальною для
+                    функції (або глобальної області видимості), всередині якої
+                    знаходиться блок. Наприклад, наступний код буде реєструвати
+                    5, оскільки область x — це функція (або глобальний
+                    контекст), у якій x оголошено, а не блок, який у цьому
+                    випадку є оператором if.
+                </p>
+                <code class="code"
+                    >if (true) { var x = 5; } console.log(x); // 5</code
+                >
+                <p class="text">
+                    Ця поведінка змінюється під час використання оголошення let,
+                    представленого в ECMAScript 2015.
+                </p>
+                <code class="code"
+                    >if (true) { let y = 5; } console.log(y); // ReferenceError:
+                    y is not defined</code
+                >
+            </section>
+            <section id="global_variables" class="main-section">
+                <h2 class="titel">Глобальні змінні</h2>
+                <p class="text">
+                    Глобальні змінні насправді є властивостями глобального
+                    об'єкта. На веб-сторінках глобальним об’єктом є вікно, тому
+                    ви можете встановлювати та отримувати доступ до глобальних
+                    змінних за допомогою синтаксису window.variable.
+                </p>
+                <p class="text">
+                    Таким чином, ви можете отримати доступ до глобальних
+                    змінних, оголошених в одному вікні або кадрі, з іншого вікна
+                    або кадру, вказавши назву вікна або кадру. Наприклад, якщо в
+                    документі оголошено змінну під назвою phoneNumber, ви можете
+                    посилатися на цю змінну з iframe як parent.phoneNumber.
+                </p>
+            </section>
+            <section id="constants" class="main-section">
+                <h2 class="titel">Константи</h2>
+                <p class="text">
+                    Ви можете створити константу з іменем лише для читання за
+                    допомогою ключового слова const. Синтаксис постійного
+                    ідентифікатора такий самий, як і для змінного
+                    ідентифікатора: він повинен починатися з літери,
+                    підкреслення або знака долара і може містити букви, цифри
+                    або символи підкреслення.
+                </p>
+                <code class="code">const PI = 3.14;</code>
+                <p class="text">
+                    Константа не може змінити значення через присвоєння або
+                    повторно оголошена під час виконання сценарію. Його потрібно
+                    ініціалізувати значенням.
+                </p>
+                <p class="text">
+                    Правила області видимості для констант такі ж, як і для
+                    змінних області видимості let block. Якщо ключове слово
+                    const опущено, передбачається, що ідентифікатор представляє
+                    змінну.>
+                </p>
+                <p class="text">
+                    Ви не можете оголосити константу з тим самим іменем, що й
+                    функція або змінна в тій самій області. Наприклад:
+                </p>
+                <code class="code"
+                    >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5;
+                    // THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5;
+                    var g; //statements }</code
+                >
+                <p class="text">
+                    Однак атрибути об’єктів не захищені, тому наступний оператор
+                    виконується без проблем.
+                </p>
+                <code class="code"
+                    >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+                    "otherValue";</code
+                >
+            </section>
+            <section id="data_types" class="main-section">
+                <h2 class="titel">Типи даних</h2>
+                <p class="text">
+                    Останній стандарт ECMAScript визначає сім типів даних:
+                </p>
+                <ul class="list-style">
+                    <li class="list-text">
+                        Шість типів даних, які є примітивами:
+                    </li>
+                    <li class="list-text">і Об'єкт</li>
+                </ul>
+                <p class="text">
+                    Хоча ці типи даних є відносно невеликими, вони дозволяють
+                    виконувати корисні функції з вашими програмами. Об’єкти та
+                    функції є іншими фундаментальними елементами мови. Ви можете
+                    розглядати об’єкти як іменовані контейнери для значень, а
+                    функції – як процедури, які може виконувати ваша програма.
+                </p>
+            </section>
+            <section id="if...else_statement" class="main-section">
+                <h2 class="titel">Оператор if... else</h2>
+                <p class="text">
+                    Використовуйте оператор if, щоб виконати оператор, якщо
+                    логічна умова виконується. Використовуйте необов’язкову
+                    пропозицію else, щоб виконати оператор, якщо умова хибна.
+                    Інструкція if виглядає наступним чином:
+                </p>
+                <code class="code"
+                    >if (condition) { statement_1; } else { statement_2; }</code
+                >
+                <p class="text">
+                    умовою може бути будь-який вираз, який має значення true або
+                    false. Перегляньте Boolean для пояснення того, що
+                    обчислюється як true і false. Якщо умова оцінюється як
+                    істинна, виконується оператор_1; інакше виконується
+                    оператор_2. оператор_1 і оператор_2 можуть бути будь-якими
+                    операторами, включаючи додаткові вкладені оператори if.
+                </p>
+                <p class="text">
+                    Ви також можете об’єднати оператори за допомогою else if,
+                    щоб мати кілька умов, перевірених послідовно, як показано
+                    нижче:
+                </p>
+                <code class="code"
+                    >if (condition_1) { statement_1; } else if (condition_2) {
+                    statement_2; } else if (condition_n) { statement_n; } else {
+                    statement_last; }</code
+                >
+                <p class="text">
+                    У разі кількох умов буде виконано лише першу логічну умову,
+                    яка оцінюється як істина. Щоб виконати кілька інструкцій,
+                    згрупуйте їх у блочну інструкцію ({ ... }). Загалом, добре
+                    завжди використовувати блокові оператори, особливо під час
+                    вкладення операторів if:
+                </p>
+                <code class="code"
+                    >if (condition) { statement_1_runs_if_condition_is_true;
+                    statement_2_runs_if_condition_is_true; } else {
+                    statement_3_runs_if_condition_is_false;
+                    statement_4_runs_if_condition_is_false; }</code
+                >
+                <p class="text">
+                    бажано не використовувати прості присвоєння в умовному
+                    виразі, оскільки присвоєння можна сплутати з рівністю,
+                    переглядаючи код. Наприклад, не використовуйте такий код:
+                </p>
+                <code class="code">if (x = y) { /* statements here */ }</code>
+                <p class="text">
+                    Якщо вам потрібно використовувати присвоєння в умовному
+                    виразі, звичайною практикою є розміщувати додаткові дужки
+                    навколо присвоювання. Наприклад:
+                </p>
+                <code class="code">if ((x = y)) { /* statements here */ }</code>
+            </section>
+            <section id="while_statement" class="main-section">
+                <h2 class="titel">Оператор while</h2>
+                <p class="text">
+                    Оператор while виконує свої оператори, доки визначена умова
+                    виявляється істинною. Оператор while виглядає наступним
+                    чином:
+                </p>
+                <code class="code">while (condition) statement</code>
+                <p class="text">
+                    якщо умова стає хибною, оператор у циклі припиняє виконання,
+                    а керування переходить до оператора, наступного за циклом.
+                </p>
+                <p class="text">
+                    Перевірка умови відбувається перед виконанням інструкції в
+                    циклі. Якщо умова повертає значення true, оператор
+                    виконується, і умова перевіряється знову. Якщо умова
+                    повертає false, виконання припиняється, а керування
+                    передається наступному оператору while.
+                </p>
+                <p class="text">
+                    Щоб виконати кілька операторів, використовуйте оператор
+                    блоку ({ ... }), щоб згрупувати ці оператори.
+                </p>
+                <p class="text">приклад:</p>
+                <p class="text">
+                    Наступний цикл while повторюється, поки n менше трьох:
+                </p>
+                <code class="code"
+                    >var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code
+                >
+                <p class="text">
+                    З кожною ітерацією цикл збільшує n і додає це значення до x.
+                    Тому x і n приймають такі значення:
+                </p>
+                <ul class="list-style">
+                    <li class="list-text">
+                        Після першого проходу: n = 1 і x = 1
+                    </li>
+                    <li class="list-text">
+                        Після другого проходу: n = 2 і x = 3
+                    </li>
+                    <li class="list-text">
+                        Після третього проходу: n = 3 і x = 6
+                    </li>
+                </ul>
+                <p class="text">
+                    Після завершення третього проходу умова n < 3 більше не
+                    виконується, тому цикл завершується.
+                </p>
+            </section>
+            <section id="function_declarations" class="main-section">
+                <h2 class="titel">Оголошення функцій</h2>
+                <p class="text">
+                    Визначення функції (також називається оголошенням функції
+                    або оператором функції) складається з ключового слова
+                    function, за яким слідують:
+                </p>
+                <ul class="list-style">
+                    <li class="list-text">Ім'я функції.</li>
+                    <li class="list-text">
+                        Список аргументів функції, укладених у круглі дужки та
+                        розділених комами.
+                    </li>
+                    <li class="list-text">
+                        Інструкції JavaScript, які визначають функцію, укладені
+                        у фігурні дужки { }.
+                    </li>
+                </ul>
+                <p class="text">
+                    Наприклад, наступний код визначає просту функцію під назвою
+                    square:
+                </p>
+                <code class="code"
+                    >function square(number) { return number * number; }</code
+                >
+                <p class="text">
+                    Функція square приймає один аргумент, який називається
+                    числом. Функція складається з одного оператора, який
+                    говорить про повернення аргументу функції (тобто числа),
+                    помноженого на самого себе. Оператор return визначає
+                    значення, яке повертає функція.
+                </p>
+                <code class="code">return number * number;</code>
+                <p class="text">
+                    Примітивні параметри (такі як число) передаються функціям за
+                    значенням; значення передається функції, але якщо функція
+                    змінює значення параметра, ця зміна не відображається ні
+                    глобально, ні у функції, що викликає.
+                </p>
+            </section>
+            <section id="reference" class="main-section">
+                <h2 class="titel">Довідка</h2>
+                <p class="text">
+                    Уся документація на цій сторінці взята з
+                    <a
+                        class="nav-link"
+                        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                        >MDN</a
+                    >
+                </p>
+            </section>
+        </main>
+    </body>
 </html>
